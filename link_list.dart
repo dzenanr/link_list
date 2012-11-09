@@ -1,7 +1,7 @@
 
-#import('dart:html');
+import 'dart:html';
 
-#source('links.dart');
+part 'links.dart';
 
 display() {
   String list = '';
