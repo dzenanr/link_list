@@ -1,8 +1,8 @@
 ##link_list
 
-Categories: education, list.
+**Categories**: education, list.
 
-Description: Simple web application with links.
+**Description**: Simple web application with links.
 
 
 

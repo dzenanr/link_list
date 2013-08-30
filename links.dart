@@ -4,7 +4,7 @@ List links = new List();
 
 init() {
   var link1 = new Link();
-  link1.name = "Dartling";
+  link1.name = "dartling";
   link1.url = "https://github.com/dzenanr/dartling";
   link1.description = "Domain model framework";
   links.add(link1);
