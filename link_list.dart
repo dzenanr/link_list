@@ -14,7 +14,13 @@ display() {
     list = '$list ${alink} <br/> ${link.description} <br/><br/>';
   }
   // the HTML library defines a global "document" variable
-  document.query('#links').innerHtml = list;
+  // document.query('#links').innerHtml = list; // no clickable web links
+  document.query('#links').setInnerHtml(
+      list,
+      validator: new NodeValidatorBuilder()
+      ..allowHtml5()
+      ..allowElement('a', attributes: ['href'])
+  );
 }
 
 void main() {
