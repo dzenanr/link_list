@@ -14,8 +14,8 @@ display() {
     list = '$list ${alink} <br/> ${link.description} <br/><br/>';
   }
   // the HTML library defines a global "document" variable
-  // document.query('#links').innerHtml = list; // no clickable web links
-  document.query('#links').setInnerHtml(
+  // document.querySelector('#links').innerHtml = list; // no clickable web links
+  document.querySelector('#links').setInnerHtml(
       list,
       validator: new NodeValidatorBuilder()
       ..allowHtml5()
