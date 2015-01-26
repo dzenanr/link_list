@@ -1,7 +1,7 @@
 name: link_list
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
 homepage: http://ondart.me/
-version: 0.0.1
+version: 0.0.2
 description: >
   Simple web application with links.
 dependencies:
